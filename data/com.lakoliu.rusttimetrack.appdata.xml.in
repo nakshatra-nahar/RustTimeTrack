@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.lakoliu.rusttimetrack</id>
+  <launchable type="desktop-id">com.lakoliu.rusttimetrack.desktop</launchable>
+  <name translate="no">rusttimetrack</name>
+  <summary>Track your time without being tracked</summary>
+  <developer_name translate="no">Ricky Kresslein</developer_name>
+  <developer id="in.kressle">
+    <name translate="no">Ricky Kresslein</name>
+  </developer>
+  <update_contact>rk@lakoliu.com</update_contact>
+  <translation type="gettext">rusttimetrack</translation>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <description>
+    <p>
+      rusttimetrack is a time tracking app built for GNOME with Rust
+      and GTK4. In addition to tracking time spent on tasks, you can edit that
+      time, delete entries, and change settings. It even has idle detection.
+    </p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://github.com/lakoliu/rusttimetrack/raw/main/data/screenshots/rusttimetrack-screenshot-main.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/lakoliu/rusttimetrack/raw/main/data/screenshots/rusttimetrack-screenshot-task-details.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/lakoliu/rusttimetrack/raw/main/data/screenshots/rusttimetrack-screenshot-edit-task.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/lakoliu/rusttimetrack/raw/main/data/screenshots/rusttimetrack-screenshot-settings.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://rusttimetrack.app</url>
+  <url type="bugtracker">https://github.com/lakoliu/rusttimetrack/issues</url>
+  <url type="donation">https://www.paypal.com/donate/?hosted_button_id=TLYY8YZ424VRL</url>
+  <url type="translate">https://hosted.weblate.org/projects/rusttimetrack/translations/</url>
+  <url type="vcs-browser">https://github.com/lakoliu/rusttimetrack</url>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="1.8.3" date="2024-02-05">
+      <description translate="no">
+        <ul>
+          <li>Fixed a bug causing crash when timer was restarted after a Pomodoro timer finished</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.8.2" date="2023-10-15">
+      <description translate="no">
+        <ul>
+          <li>Autocompletion</li>
+          <li>Bug fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.8.1" date="2023-06-16">
+      <description translate="no">
+        <p>Translation improvements</p>
+      </description>
+    </release>
+    <release version="1.8.0" date="2023-06-05">
+      <description translate="no">
+        <p>1.8 is a big update for rusttimetrack!</p>
+        <ul>
+          <li>Add 'This week' and 'Last week' to Reports</li>
+          <li>Setting to update today's total time as timer ticks</li>
+          <li>Bug fix: Pomodoro no longer displays one minute off</li>
+          <li>Exported CSV now includes total seconds</li>
+          <li>Moved 'total time' across from the date</li>
+          <li>Preferences is now split into sections</li>
+          <li>Updated to Gnome 44 runtime</li>
+          <li>Now uses libadwaita AboutWindow</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.7.0" date="2023-03-22">
+      <description translate="no">
+        <ul>
+          <li>Manually add new task to group</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.6.0" date="2022-10-02">
+      <description translate="no">
+        <ul>
+          <li>The location of the database is now changeable</li>
+          <li>Backup database</li>
+          <li>Import databases</li>
+          <li>Bug fixes and improvements</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.5.4" date="2022-09-14" />
+    <release version="1.5.3" date="2022-07-20" />
+    <release version="1.5.2" date="2022-07-19">
+      <description translate="no">
+        <ul>
+          <li>New icon!</li>
+          <li>Dates are now ISO 8601 format</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.5.1" date="2022-06-16" />
+    <release version="1.5.0" date="2022-06-10">
+      <description translate="no">
+        <ul>
+          <li>Added a button to restart tasks</li>
+          <li>CSV Export</li>
+          <li>Timer centered on empty state</li>
+          <li>Uses local date format</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.4.0" date="2022-06-05">
+      <description translate="no">
+        <ul>
+          <li>Generate reports of task history over a specified timeframe</li>
+          <li>Bug fixes and improvements</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.3.0" date="2022-05-26">
+      <description translate="no">
+        <ul>
+          <li>Ability to add tasks manually</li>
+          <li>Auto-save option</li>
+          <li>Task names can now be changed for an entire group</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.2.0" date="2022-04-29">
+      <description translate="no">
+        <ul>
+          <li>Added Pomodoro-style countdown timer!</li>
+          <li>Bug fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.1.2" date="2022-04-22">
+      <description translate="no">
+        <ul>
+          <li>Ability to add tags!</li>
+          <li>Fixed icon positioning</li>
+          <li>Changed start button color and behavior</li>
+          <li>Changed color of delete buttons</li>
+          <li>Dutch, Brazilian Portuguese, and French translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.1.1" date="2022-04-14" />
+    <release version="1.1.0" date="2022-04-11">
+      <description translate="no">
+        <p>
+          rusttimetrack has a new icon! And lots of bug fixes and improvements.
+        </p>
+      </description>
+    </release>
+    <release version="1.0.9" date="2022-04-02" />
+    <release version="1.0.8" date="2022-03-26" />
+    <release version="1.0.7" date="2022-03-18">
+      <description translate="no">
+        <p>
+          First stable release of rusttimetrack.
+        </p>
+        <ul>
+          <li>Track time spent on tasks</li>
+          <li>Change/delete recorded times</li>
+          <li>Idle detection</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>
